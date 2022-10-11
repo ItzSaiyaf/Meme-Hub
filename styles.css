@@ -1,0 +1,29 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: black;
+}
+.container {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.meme {
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+}
+.meme::after {
+    content: 'Hub';
+    width: 10em;
+    height: 5em;
+    background-color: rgb(255, 182, 46);
+    color: black;
+    border-radius: 10px;
+    margin-left: 5px;
+}
